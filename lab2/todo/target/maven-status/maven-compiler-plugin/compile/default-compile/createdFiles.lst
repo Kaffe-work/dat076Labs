@@ -1,0 +1,9 @@
+mvc/beans/ViewModel.class
+mvc/control/FrontController.class
+mvc/model/Model.class
+mvc/control/Router.class
+mvc/model/TodoList.class
+mvc/model/TodoList$1.class
+mvc/model/UserRegistry.class
+mvc/model/TodoNote.class
+mvc/model/User.class
