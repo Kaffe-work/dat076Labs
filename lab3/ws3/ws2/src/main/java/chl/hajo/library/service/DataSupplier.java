@@ -52,13 +52,13 @@ public class DataSupplier {
     public static List<Book> getBooks() {
         List<Book> books = new ArrayList<>();
         String[] bookData = {
-                "9789188681010;Isfiskaren;THRILLER;35",
-                "9789188545480;Falco;THRILLER;58",
-                "9789175038209;1793;BIOGRAPHY;39",
-                "9789100142698;Lazarus;NOVEL;79",
-                "9789188681027;Sillbaronen;NOVEL;35",
-                "9789150924688;Du kommer inte undan;ROMANTIC_NOVEL;29",
-                "9789177834328;Lär dig klockan med Greta Gris;ROMANTIC_NOVEL;55"
+                "9781845436551;101 sci-fi movies you must see before you die;BIOGRAPHY;35",
+                "9789188545480;FOXxrFalco 20XX;THRILLER;58",
+                "9789175038209;russian feeder mid;BIOGRAPHY;39",
+                "9789100142698;rush b blyat!!;NOVEL;79",
+                "9789188681027;Chinese gold farmer;NOVEL;35",
+                "9789150924688;gråta sig till sömns ensam;ROMANTIC_NOVEL;29",
+                "9789177834328;olja och en miljon procent inflation;ROMANTIC_NOVEL;55"
         };
         for (String s : bookData) {
             String[] d = s.split(";");
