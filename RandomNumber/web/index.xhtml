@@ -10,9 +10,14 @@
         <h:form>
             <fieldset>
                 <legend>Random Number</legend>
+                min:<h:inputText id="min" value="#{numberGenerator.min}">
+                </h:inputText>
+                <br/>max:<h:inputText id="max" value="#{numberGenerator.max}">
+                </h:inputText><br/>
                 <h:commandButton value="Show Number"
                                  action="#{numberGenerator.randomize}">
-                    <f:ajax render="numField1"/>
+                    <f:ajax execute="min max" render="numField1"/>
+                    
                 </h:commandButton>
                 <h2><h:outputText value="#{numberGenerator.number}" id="numField1"/>
                 </h2>
