@@ -1,9 +1,0 @@
-mvc\model\TodoList$1.class
-mvc\model\UserRegistry.class
-mvc\beans\ViewModel.class
-mvc\model\TodoNote.class
-mvc\model\Model.class
-mvc\model\User.class
-mvc\model\TodoList.class
-mvc\control\FrontController.class
-mvc\control\Router.class
